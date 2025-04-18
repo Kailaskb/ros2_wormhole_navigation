@@ -1,0 +1,86 @@
+It seems like you want to add `initialize_git_repo.sh` to the `.gitignore` file. However, it is already present in the file under the "sh files" section. No further action is needed. Let me know if you need help with anything else!
+build/
+install/
+log/
+logs/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.venv/
+venv/
+ENV/
+
+# C++ specific ignores
+*.o
+*.so
+*.a
+*.la
+*.lo
+*.dylib
+*.exe
+*.dll
+*.lib
+*.out
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build and dependency artifacts
+*.deb
+*.rpm
+*.whl
+*.egg-info/
+dist/
+devel/
+
+# Colcon specific
+.colcon_cd_root
+colcon.pkg
+
+# Documentation generated files
+docs/_build/
+api/
+
+# Custom ignores for this project
+# Temporary map files that may be generated during testing
+temp_maps/
+
+# Large data files that should not be versioned
+*.bag
+*.mcap
+
+# sh files
+initialize_git_repo.sh

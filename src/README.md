@@ -1,18 +1,3 @@
-# ROS 2 Wormhole Navigation
-
-A ROS 2 Humble package enabling seamless navigation across multiple maps using "wormhole" transition points. This system allows robots to operate in facilities with separate map regions (rooms, floors, buildings) while maintaining navigation continuity. Includes VDA 5050 integration for industrial AGVs and fleet management systems.
-
-## Key Features
-- 🗺️ Multi-map navigation with automatic transitions
-- 🌀 Wormhole-based path planning across separate maps
-- 🏭 VDA 5050 industrial standard integration
-- 📊 SQLite-backed wormhole database
-- 📡 Dynamic map switching and TF management
-- 🔎 Visualization tools for wormholes and paths
-
-Designed for warehouses, multi-floor buildings, and facilities with distinct areas that require separate mapping.
-
-
 # Multi-Map Navigation System
 
 A ROS 2 package for seamless navigation across multiple maps using wormhole transitions with VDA 5050 compatibility.
@@ -81,7 +66,7 @@ The Multi-Map Navigation System enables robots to navigate across separate map r
 ```bash
 mkdir -p ~/multi_map_ws/src
 cd ~/multi_map_ws/src
-git clone https://github.com/Kailaskb/ros2_wormhole_navigation.git
+git clone <repository-url> multi_map_nav
 ```
 
 2. Install dependencies:

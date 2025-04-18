@@ -1,0 +1,12 @@
+# Request
+string map_name
+geometry_msgs/PoseStamped pose
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string current_map
+string status
+float32 percent_complete
